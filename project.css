@@ -4,6 +4,10 @@ body{
     padding:0;
     border: 0;
     margin:0;
+    /* background-color: #F5F7FA;
+    color: #333333; */
+    /* background-color: #121212;
+    color: #EAEAEA; */
 }
 @media (max-width:768px){
     body{
@@ -60,28 +64,22 @@ body{
     padding-bottom: 10px;
 }
 
-.img{
-   
-    width: 300;
-    height: 300px;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 50%;
-}
+
 .container{
     display: flex;
    width: 100vw;
    height: 50vh;
     /* background-color:antiquewhite; */
-    flex-direction: row;
-    /* justify-content: space-between; */
-    /* align-items: center; */
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 .box{
     width: 50%; /* Each div takes 50% width */
     padding: 20px;
-    text-align: center;
-    /* border: 1px solid black; */
+    /* display: grid;
+    place-items: center; */
+
     background-color: antiquewhite;
 }
 
@@ -148,14 +146,22 @@ nav ul li a {
     
 }
 .section {
-    height: 100vh;
+    /* height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 24px;
     border-bottom: 2px solid #ddd;
     display: block;
-    text-align: center;
+    text-align: center; */
+    display: flex;
+   width: 100vw;
+   height: 50vh;
+    /* background-color:antiquewhite; */
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-top: 10px;
 }
 footer{
     background-color: #333;
@@ -189,3 +195,34 @@ p{
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif ;
 }
+footer{
+    overflow: auto;
+}
+/* .section{
+    overflow: hidden;
+} */
+ div{
+    margin: 0px;
+    padding: 0px;
+    /* display: inline-block; */
+
+ }
+ h1,p{
+    margin: 0;
+    padding: 0;
+ }
+ .image{
+    /* justify-content: center; */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 50vh;
+   
+ }
+ .img{
+    height: 35vh;
+    width: 35vh;
+    border-radius: 50%;
+    object-fit: cover;
+ }
+ /* style="background: linear-gradient(to right, #63cee9, #6a8288) */
