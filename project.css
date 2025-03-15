@@ -161,6 +161,7 @@ nav ul li a {
     flex-direction: column;
     /* justify-content: space-between; */
     align-items: center;
+    text-align: center;
     margin-top: 10px;
 }
 footer{
@@ -173,6 +174,7 @@ footer{
 }
 .foo{
     display: flex;
+    flex-direction: row;
 }
 
 .icon{
@@ -183,9 +185,7 @@ div{
     overflow: auto;
 
 }
-.ab{
-    font-size: 18px;
-}
+
 /* #eduction{
     text-align: center;
     justify-content: center;
@@ -226,3 +226,15 @@ footer{
     object-fit: cover;
  }
  /* style="background: linear-gradient(to right, #63cee9, #6a8288) */
+.atag{
+    text-decoration:none ;
+    color: #333;
+    margin-left: 10px;
+    
+}
+.dis{
+    display: block;
+}
+svg{
+    margin-bottom: 10px;
+}
